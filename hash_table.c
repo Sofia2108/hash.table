@@ -367,11 +367,8 @@ int main() {
     print_search(ht, "298-0-467");
     print_search(ht, "596-4-795");
     print_search(ht, "233-9-476");
-    
-    print_table(ht);
+    print_hashtable(ht);
     ht_delete(ht, "590-4-725");
-    ht_delete(ht, "596-4-795");
-   
     print_hashtable(ht);
     free_hashtable(ht);
     return 0;
